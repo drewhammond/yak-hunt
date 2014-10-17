@@ -1,5 +1,7 @@
 # Yak Hunt
 
+[![Build Status](https://travis-ci.org/drewhammond/yak-hunt.svg)](https://travis-ci.org/drewhammond/yak-hunt)
+
 Hunt Yaks no matter where you are in the world. Go get 'em.
 
 ## Copyright
