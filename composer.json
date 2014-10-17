@@ -1,8 +1,14 @@
 {
-	"name": "laravel/laravel",
-	"description": "The Laravel Framework.",
-	"keywords": ["framework", "laravel"],
-	"license": "MIT",
+	"name": "drewhammond/yak-hunt",
+	"description": "Web-based Yik Yak application for hunting yaks wherever you are",
+	"keywords": ["yikyak", "yak"],
+	"authors": [
+	  {
+		"name": "Drew Hammond",
+		"email": "drew@alphagenetica.com"
+	  }
+	],
+	"license": "proprietary",
 	"type": "project",
 	"require": {
 		"laravel/framework": "4.2.*"
