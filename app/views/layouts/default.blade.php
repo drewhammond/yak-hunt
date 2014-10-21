@@ -11,8 +11,11 @@
 
 @include('layouts.partials.navigation');
 
-<div class="container">
+<div id="content">
+    @yield('content')
+</div>
 
+<div class="container">
 </div>
 
 <div class="footer">
