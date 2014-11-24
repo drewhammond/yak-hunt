@@ -12,3 +12,5 @@
 */
 
 Route::get('/', 'HomeController@index');
+
+// API routes @todo
