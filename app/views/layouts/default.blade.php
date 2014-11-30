@@ -5,7 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 <title>Yak Hunt</title>
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-<link rel="stylesheet" href="assets/css/app.css">
+<link rel="stylesheet" href="{{ URL::asset('assets/css/app.css') }}">
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=API_KEY"></script>
+<script src="{{ asset('assets/vendor/gmaps/gmaps.js') }}"></script>
+<script type="text/javascript" src="{{ URL::asset('assets/js/app.js') }}"></script>
 </head>
 <body>
 
