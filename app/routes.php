@@ -16,3 +16,5 @@ Route::get('/', 'HomeController@index');
 // Hunter route
 Route::get('hunter', 'HunterController@index');
 Route::get('hunter/{lat}/{lng}', 'HunterController@scout');
+
+// API routes @todo

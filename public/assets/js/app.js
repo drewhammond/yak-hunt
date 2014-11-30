@@ -29,8 +29,8 @@ function initialize() {
 map = new GMaps({
     div: '#map-canvas',
     zoom: 12,
-    lat: -34.397,
-    lng: 150.644,
+    lat: 38.9729,
+    lng: -76.5012,
     streetViewControl: false,
     dragend: function(e) {
 
@@ -47,8 +47,8 @@ map = new GMaps({
 });
 
 map.drawCircle({
-        lat: -34.397,
-        lng:150.644,
+        lat: 38.9729,
+        lng:-76.5012,
         draggable: false,
         radius: 2000
     }

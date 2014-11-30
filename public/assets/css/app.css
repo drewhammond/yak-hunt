@@ -6,6 +6,7 @@ html {
 body {
     /* Margin bottom by footer height */
     margin-bottom: 60px;
+    min-height: 100%;
 }
 
 .footer {
@@ -36,6 +37,16 @@ body > .container {
 
 code {
     font-size: 80%;
+}
+
+html, body, #map-canvas {
+    height: 100%;
+    margin: 0px;
+    padding: 0px
+}
+
+.map-container, .map-container > .col-sm-6 {
+    height: 100%;
 }
 
 #content {
